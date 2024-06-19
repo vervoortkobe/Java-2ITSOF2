@@ -1,0 +1,10 @@
+voornaam;achternaam;huisdier;geboortedatum;type
+Jeroen;De Vos;Pluisje;09-08-2005;CAT
+Jeroen;De Vos;Brutus;15-09-2009;DOG
+Jon;Arbuckle;Garfield;21-05-2001;CAT
+Jeroen;De Vos;Amy;05-10-2010;CAT
+Jon;Arbuckle;Odie;20-05-2003;DOG
+Jeroen;De Vos;Lily;03-08-2022;CAT
+Jozephus;Waterschoot;Bob;25-03-2018;CAT
+Jozephus;Waterschoot;Myra;01-06-2007;CAT
+Jozephus;Waterschoot;Zoë;14-12-2018;DOG

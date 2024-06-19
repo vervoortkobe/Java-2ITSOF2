@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="be.ap.wk7.starwars.troopers.StormTrooper" table="STORMTROOPER">
+        <id name="id" type="int" column="kolom_id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="kolom_name" type="java.lang.String"/>
+        <property name="rank" column="kolom_rank" type="org.hibernate.type.EnumType"/>
+    </class>
+</hibernate-mapping>

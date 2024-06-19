@@ -1,0 +1,13 @@
+naam,type
+Bernard,CAT
+Munchkin,CAT
+Garfield,CAT
+Tip,CAT
+Cheeto,CAT
+Patch,CAT
+Harvey,DOG
+Wally,DOG
+Walter,DOG
+Sammy,DOG
+Jake,DOG
+Noah,DOG

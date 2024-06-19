@@ -1,0 +1,24 @@
+Out of the box ondersteunt Jackson het datatype LocalDate niet.
+
+Volgende code zal m.a.w. een fout geven:
+
+@JsonProperty("date")
+private LocalDate date;
+
+Om dit op de lossen dienen we twee zaken toe te voegen.
+
+1. nieuwe dependency:
+
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jsr310</artifactId>
+    <version>2.15.3</version>
+</dependency>
+
+2. extra Jackson annotation
+
+@JsonProperty("date")
+@JsonFormat(pattern="dd-MM-yyyy")
+private LocalDate date;
+
+Hierna zal een datum die doorgestuurd wordt in formaat dd-MM-yyyy wel correct omgezet worden naar een LocalDate.

@@ -1,0 +1,14 @@
+Bonobo,true
+Olifant,true
+Jaguar,true
+Bruine Beer,false
+Neushoorn,true
+Tijger,true
+Leeuw,true
+Gorilla,true
+Wolf,false
+Lynx,false
+Reuzenpanda,true
+Bizon,false
+Chimpansee,false
+Gaffelbok,false
